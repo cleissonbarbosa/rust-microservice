@@ -1,0 +1,13 @@
+[package]
+name = "rust-microservice"
+version = "0.2.0"
+edition = "2021"
+authors = ["Cleisson Barbosa <cleissonbarbosa68@gmail.com>"]
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+homepage = "https://github.com/cleissonbarbosa/rust-microservice"
+repository = "https://github.com/cleissonbarbosa/rust-microservice"
+
+[dependencies]
+actix-web = "4"
+serde = { version = "1.0", features = ["derive"] }
